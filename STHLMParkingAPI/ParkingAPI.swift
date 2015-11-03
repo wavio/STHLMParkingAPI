@@ -32,10 +32,11 @@ public typealias DefaultResponseCompletionHandler = WOResponse -> Void
 public class ParkingAPI {
     
     private let session: NSURLSession
-    private let apiKey = "5a447ff5-c0db-44ff-9d27-a190820ae6f9"
+    private let apiKey: String
     
-    public init(session: NSURLSession = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())) {
+    public init(apiKey: String, session: NSURLSession = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())) {
         self.session = session
+        self.apiKey = apiKey
     }
     
     

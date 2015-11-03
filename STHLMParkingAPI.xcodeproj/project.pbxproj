@@ -16,6 +16,7 @@
 		421590A91BE8FE26005588E9 /* WOResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421590A51BE8FE26005588E9 /* WOResponse.swift */; };
 		421590AB1BE8FE4C005588E9 /* ParkingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421590AA1BE8FE4C005588E9 /* ParkingAPI.swift */; };
 		421590AE1BE8FE80005588E9 /* Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421590AD1BE8FE80005588E9 /* Decoding.swift */; };
+		421590BB1BE90D32005588E9 /* Printable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421590BA1BE90D32005588E9 /* Printable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		421590A51BE8FE26005588E9 /* WOResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOResponse.swift; sourceTree = "<group>"; };
 		421590AA1BE8FE4C005588E9 /* ParkingAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingAPI.swift; sourceTree = "<group>"; };
 		421590AD1BE8FE80005588E9 /* Decoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decoding.swift; sourceTree = "<group>"; };
+		421590BA1BE90D32005588E9 /* Printable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				421590AD1BE8FE80005588E9 /* Decoding.swift */,
+				421590BA1BE90D32005588E9 /* Printable.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421590BB1BE90D32005588E9 /* Printable.swift in Sources */,
 				421590A91BE8FE26005588E9 /* WOResponse.swift in Sources */,
 				421590A81BE8FE26005588E9 /* WOFeature.swift in Sources */,
 				421590AB1BE8FE4C005588E9 /* ParkingAPI.swift in Sources */,
